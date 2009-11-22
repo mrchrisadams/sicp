@@ -7,47 +7,16 @@
 ; now we check `a` against the other members of the list. if it's larger then `b` or `c`, we define it as `largest-number`
 
 ; given 3, 5 and 7, we need to return 5 and 7.
-if it's less than 
 
-(define (largest-number j k l) 
-  (cond (
-         (and ( > j k ) 
-              ( > j l )
-         )
-         j
-        )
-        (
-         (and ( > k j ) 
-              ( > k l )
-         )
-         k
-        )
-        (
-         (and ( > l j ) 
-              ( > l k )
-         )
-         l
-        )
+(define (sum-of-two-largest-squares x y z) 
+  (
+    cond 
+      ; if one of the params passed in is less than or equal to the other two values, by default the other two must be the largest ones, as we only have three choices
+      ((and (<= x y) (<= x z) ) (+ (square y) (square z)))
+      ((and (<= y z) (<= y x) ) (+ (square x) (square z))) 
+      ((and (<= z y) (<= z x) ) (+ (square y) (square x)))
   )
+    
+  
+  
 )
-; if a value is less than or equal the largest number, but more than another number in the list then by default is is the second largest of the three numbers.
-(define (second-largest-number j k l o) 
-  (cond (
-         (and  (<= o j) (> j k ) (> j l ) )
-        j
-        )
-        (
-        ( and  (<= o k) (> k j) (> k l ) )
-        k
-        )
-        ( 
-        ( and  (<= o l) (> l k) (> l j ) )
-        l
-        )
-  )
-)
-
-
-(define (sum-of-two-largest-squares) )
-
-(define (largest-number j k l) (+ j k l)) 
