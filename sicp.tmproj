@@ -6,23 +6,35 @@
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>ex.1.3.txt</string>
+			<string>notes-chap-one.markdown</string>
 			<key>lastUsed</key>
-			<date>2009-11-22T00:20:02Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2009-11-22T16:05:09Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
-			<string>ex.1.2.txt</string>
+			<string>readme.txt</string>
 			<key>lastUsed</key>
-			<date>2009-11-21T23:12:20Z</date>
+			<date>2009-11-22T16:05:09Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ex.1.1.txt</string>
 			<key>lastUsed</key>
-			<date>2009-11-21T22:54:59Z</date>
+			<date>2009-11-22T16:05:09Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ex.1.2.txt</string>
+			<key>lastUsed</key>
+			<date>2009-11-22T16:05:10Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ex.1.3.txt</string>
+			<key>lastUsed</key>
+			<date>2009-11-22T16:05:09Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
